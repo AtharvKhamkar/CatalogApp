@@ -79,9 +79,7 @@ class _CartListState extends State<_CartList> {
                     icon: Icon(Icons.remove_circle_outline),
                     onPressed: () {
                       _cart.remove(_cart.items[index]);
-                      setState(() {
-                        
-                      });
+                      setState(() {});
                     },
                   ),
                   title: _cart.items[index].name.text.make(),
@@ -90,3 +88,4 @@ class _CartListState extends State<_CartList> {
 }
 //Atharv
 //Atharv
+// Aditya 
